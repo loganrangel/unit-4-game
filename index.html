@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+ 
+    <div id="instructions">
+        <h1>Crystal Collector Game!</h1>
+        <p>You will be provided with a random number at the start of the game.</p>
+        <p>There are four crystals, each with their own specific value. By clicking on a crystal, you will add that specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to the randomly generated number, but you will lose the game if your total score exceeds that of the random number.</p>
+        <p>The value of each crystal will remain unknown until you click on it.</p>
+        <p>Both the random number and value of each crystal will change with the start of each new game.</p>
+    </div>
+    <div id="random-space"><h2>Number to Guess: <span id="random-number"></span></h2></div>
+    <div id="wins">Wins: <span id="wins-score"></span></div>
+    <div id="losses">Losses: <span id="losses-score"></span></div>
+
+    <div id="crystal-space">
+    </div>
+
+    </div>
+   
+    <div id="score-number">Your Total Score: <span id="score-space"></span></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>

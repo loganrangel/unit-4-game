@@ -1,0 +1,11 @@
+.image-crystal {
+    width: 10opx;
+    height: 100px;
+    margin: 10px;
+    display: inline-bock;
+    float: left;
+}
+
+body {
+    background-image: url(../images/hexellence/hexellence.png);
+}
